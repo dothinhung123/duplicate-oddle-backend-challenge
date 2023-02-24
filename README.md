@@ -21,9 +21,12 @@ A simple weather checking API service.
 
 ## Setup
 **Prerequisites:**
-
-You need to update the database config to point to your desired database first.
-
+```
+$ Run weather.sql to create new database whose name is weather
+```
+```
+$ You need to update the database config to point to your desired database first.
+```
 **Run:**
 ```
 $ ./gradlew bootRun
