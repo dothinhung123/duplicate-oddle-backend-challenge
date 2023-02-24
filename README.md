@@ -21,9 +21,12 @@ A simple weather checking API service.
 
 ## Setup
 **Prerequisites:**
-
-You need to update the database config to point to your desired database first.
-
+```
+$ Run weather.sql to create new database whose name is weather
+```
+```
+$ You need to update the database config to point to your desired database first.
+```
 **Run:**
 ```
 $ ./gradlew bootRun
@@ -74,3 +77,6 @@ https://openweathermap.org/current
 * Code. Commit and Push as many times as you want, only the **LAST Pull Request** will be graded
 * Create a Pull Request from your new branch in your private repo and invite us as reviewer
 * Add https://github.com/oddle-hire-java as collaborator for your repo and add `oddle-hire-java` as reviewer to your PR
+
+## Documentation
+* To know how to execute weather API go to http://localhost:8081/swagger-ui-custom.html after starting application
